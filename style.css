@@ -4,6 +4,6 @@
     box-sizing: border-box;
 }
 #canvas{
-    height: 100vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    display: block; /*canvas 默认显示模式是 inline，所有会有滚动条 */
 }
